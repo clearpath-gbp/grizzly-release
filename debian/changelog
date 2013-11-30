@@ -1,0 +1,13 @@
+ros-hydro-grizzly-teleop (0.1.1-0precise) precise; urgency=high
+
+
+
+ -- Ryan Gariepy <rgariepy@clearpathrobotics.com>  Sat, 30 Nov 2013 05:00:00 -0000
+
+ros-hydro-grizzly-teleop (0.1.0-0precise) precise; urgency=high
+
+  * Initial release, with support primarily for the PS3 Navigation controller.
+
+ -- Ryan Gariepy <rgariepy@clearpathrobotics.com>  Thu, 28 Nov 2013 05:00:00 -0000
+
+
