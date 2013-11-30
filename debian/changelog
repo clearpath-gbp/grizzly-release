@@ -1,9 +1,0 @@
-ros-hydro-grizzly-msgs (0.1.0-0precise) precise; urgency=high
-
-  * Add a header with eigen-msg convenience functions for grizzly_msgs/Drive.
-  * Add Drive message, add header to RawStatus message, fix up make for msgs package.
-  * First cut of catkinized grizzly_msgs
-
- -- Mike Purvis <mpurvis@clearpathrobotics.com>  Thu, 28 Nov 2013 05:00:00 -0000
-
-
