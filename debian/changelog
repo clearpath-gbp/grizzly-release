@@ -1,0 +1,19 @@
+ros-hydro-grizzly-description (0.1.2-0raring) raring; urgency=high
+
+  * Remove commented reference to husky_wheel stl, as this was confusing Gazebo.
+
+ -- Yan Ma <yanma@clearpathrobotics.com>  Wed, 04 Dec 2013 05:00:00 -0000
+
+ros-hydro-grizzly-description (0.1.1-0raring) raring; urgency=high
+
+  * Remove attempt to install non-existant launch folder.
+
+ -- Yan Ma <yanma@clearpathrobotics.com>  Sat, 30 Nov 2013 05:00:00 -0000
+
+ros-hydro-grizzly-description (0.1.0-0raring) raring; urgency=high
+
+  * Initial cut of a grizzly_description suitable for visualization and simulation.
+
+ -- Yan Ma <yanma@clearpathrobotics.com>  Thu, 28 Nov 2013 05:00:00 -0000
+
+
