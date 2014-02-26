@@ -2,6 +2,9 @@
 Changelog for package grizzly_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.3 (2014-02-25)
+------------------
+
 0.1.2 (2013-12-04)
 ------------------
 * Remove commented reference to husky_wheel stl, as this was confusing Gazebo.
