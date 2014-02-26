@@ -1,3 +1,27 @@
+## grizzly (hydro) - 0.1.3-0
+
+User `administrator@cpr-syd03-base` released the packages in the `grizzly` repository into the `hydro` distro by running `/usr/bin/bloom-release --track hydro --rosdistro hydro grizzly` on `Wed, 26 Feb 2014 01:54:56 -0000`
+
+These packages were released:
+- `grizzly_description`
+- `grizzly_motion`
+- `grizzly_msgs`
+- `grizzly_navigation`
+- `grizzly_teleop`
+
+Version of package(s) in repository `grizzly`:
+- rosdistro version: `0.1.2-0`
+- old version: `0.1.2-0`
+- new version: `0.1.3-0`
+
+Versions of tools used:
+- bloom version: `0.5.1`
+- catkin_pkg version: `0.1.26`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.33`
+
+
 ## grizzly - 0.1.2-0
 
 User `administrator@vm-precise` released the packages in the `grizzly` repository by running `/usr/bin/bloom-release --track hydro --ros-distro hydro grizzly` on `Wed, 04 Dec 2013 12:56:27 -0000`
