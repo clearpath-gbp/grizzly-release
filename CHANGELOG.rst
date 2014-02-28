@@ -2,6 +2,11 @@
 Changelog for package grizzly_motion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.0 (2014-02-28)
+------------------
+* Change max acceleration from 0.5 to 1.5.
+* Contributors: Mike Purvis
+
 0.1.4 (2014-02-27)
 ------------------
 * Disable encoder check pending a better implementation.
