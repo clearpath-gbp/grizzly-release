@@ -1,0 +1,12 @@
+Source: ros-indigo-grizzly-description
+Section: misc
+Priority: extra
+Maintainer: Yan Ma <yanma@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-grizzly-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-joint-state-publisher, ros-indigo-robot-state-publisher, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-std-msgs, ros-indigo-urdf, ros-indigo-xacro
+Description: grizzly_description package to hold urdf and related model files
