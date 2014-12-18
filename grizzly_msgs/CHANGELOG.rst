@@ -2,6 +2,12 @@
 Changelog for package grizzly_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.0 (2014-12-18)
+------------------
+* add front axle publisher.
+* Use the FindEigen from cmake_modules.
+* Contributors: Mike Purvis, Shokoofeh Pourmehr
+
 0.2.0 (2014-02-28)
 ------------------
 
