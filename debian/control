@@ -1,0 +1,12 @@
+Source: ros-indigo-grizzly-msgs
+Section: misc
+Priority: extra
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-indigo-catkin, ros-indigo-cmake-modules, ros-indigo-message-generation, ros-indigo-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-grizzly-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-indigo-message-runtime, ros-indigo-std-msgs
+Description: grizzly_msgs
