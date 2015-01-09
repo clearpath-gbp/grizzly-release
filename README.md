@@ -1,3 +1,29 @@
+## grizzly (indigo) - 0.3.1-0
+
+The packages in the `grizzly` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -r indigo -t indigo grizzly` on `Fri, 09 Jan 2015 19:01:53 -0000`
+
+These packages were released:
+- `grizzly_description`
+- `grizzly_motion`
+- `grizzly_msgs`
+- `grizzly_navigation`
+- `grizzly_teleop`
+
+Version of package(s) in repository `grizzly`:
+- upstream repository: https://github.com/g/grizzly.git
+- release repository: https://github.com/clearpath-gbp/grizzly-release.git
+- rosdistro version: `0.3.0-0`
+- old version: `0.3.0-0`
+- new version: `0.3.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.16`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## grizzly (indigo) - 0.3.0-0
 
 The packages in the `grizzly` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo -r indigo grizzly --new-track` on `Thu, 18 Dec 2014 18:51:34 -0000`
