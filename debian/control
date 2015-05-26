@@ -1,0 +1,12 @@
+Source: ros-jade-grizzly-motion
+Section: misc
+Priority: extra
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-jade-angles, ros-jade-catkin, ros-jade-cmake-modules, ros-jade-diagnostic-updater, ros-jade-geometry-msgs, ros-jade-grizzly-msgs, ros-jade-nav-msgs, ros-jade-roboteq-msgs, ros-jade-roscpp, ros-jade-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-grizzly-motion
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-angles, ros-jade-diagnostic-updater, ros-jade-geometry-msgs, ros-jade-grizzly-msgs, ros-jade-nav-msgs, ros-jade-roboteq-msgs, ros-jade-roscpp, ros-jade-tf
+Description: Low-level motion control nodes for Grizzly which are common to simulated and non-simulated Grizzly.
