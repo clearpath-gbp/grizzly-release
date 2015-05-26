@@ -1,0 +1,12 @@
+Source: ros-jade-grizzly-teleop
+Section: misc
+Priority: extra
+Maintainer: Ryan Gariepy <rgariepy@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), libusb-dev, ros-jade-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-grizzly-teleop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-geometry-msgs, ros-jade-grizzly-msgs, ros-jade-joy, ros-jade-rospy, ros-jade-sensor-msgs
+Description: Nodes to republish joystick messages as a cmd_vel topic suitable for use with real or simulated Grizzly.
