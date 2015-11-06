@@ -2,6 +2,11 @@
 Changelog for package grizzly_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.2 (2015-11-06)
+------------------
+* Add grizzly_msgs description.
+* Contributors: Mike Purvis
+
 0.3.1 (2015-01-09)
 ------------------
 
