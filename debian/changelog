@@ -1,0 +1,72 @@
+ros-indigo-grizzly-motion (0.3.2-0saucy) saucy; urgency=high
+
+  * Added a precharge check before transitioning into MOVING state. Without this,
+    precharges that take longer than 2.0 seconds will cause stuttering issues if
+    there is already a cmd_vel being sent.
+  * Added estop check in watchdog callback for the Moving state. Without this, the
+    state machine will get stuck in the Moving state if the vehicle is estopped while
+    there is still a stream of motion commands being sent.
+  * Contributors: Mike Purvis, Peiyi Chen
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Fri, 06 Nov 2015 05:00:00 -0000
+
+ros-indigo-grizzly-motion (0.3.1-0saucy) saucy; urgency=high
+
+  * Fix grizzly_motion/tests bugs
+  * Contributors: Shokoofeh Pourmehr
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Fri, 09 Jan 2015 05:00:00 -0000
+
+ros-indigo-grizzly-motion (0.3.0-0saucy) saucy; urgency=high
+
+  * Replace robot_pose_ekf with robot_localization.
+  * add front axle publisher.
+  * added publisher for wheel joints.
+  * Fix dependency on roboteq_msgs.
+  * Clarify timeout statemachine logic.
+  * Use the FindEigen from cmake_modules.
+  * Contributors: Mike Purvis, Shokoofeh Pourmehr
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Thu, 18 Dec 2014 05:00:00 -0000
+
+ros-indigo-grizzly-motion (0.2.0-0saucy) saucy; urgency=high
+
+  * Change max acceleration from 0.5 to 1.5.
+  * Contributors: Mike Purvis
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Fri, 28 Feb 2014 05:00:00 -0000
+
+ros-indigo-grizzly-motion (0.1.4-0saucy) saucy; urgency=high
+
+  * Disable encoder check pending a better implementation.
+  * Contributors: Mike Purvis
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Thu, 27 Feb 2014 05:00:00 -0000
+
+ros-indigo-grizzly-motion (0.1.3-0saucy) saucy; urgency=high
+
+  * Check absolute value of measured speed; fixes bug with spurious encoder faults when driving backwards.
+  * Contributors: Mike Purvis
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Tue, 25 Feb 2014 05:00:00 -0000
+
+ros-indigo-grizzly-motion (0.1.2-0saucy) saucy; urgency=high
+
+  * Install missing launch folder.
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Wed, 04 Dec 2013 05:00:00 -0000
+
+ros-indigo-grizzly-motion (0.1.1-0saucy) saucy; urgency=high
+
+  * Add roboteq_msgs, nav_msgs dependency to grizzly_motion, remote unused eigen_conversions.
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Sat, 30 Nov 2013 05:00:00 -0000
+
+ros-indigo-grizzly-motion (0.1.0-0saucy) saucy; urgency=high
+
+  * Initial release of motion package, corresponding to source release
+    shipped with Nov 2013 deliveries.
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Thu, 28 Nov 2013 05:00:00 -0000
+
+
