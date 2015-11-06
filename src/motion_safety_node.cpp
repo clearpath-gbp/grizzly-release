@@ -155,7 +155,7 @@ void MotionSafety::watchdogCallback(const ros::TimerEvent&)
   {
     ambience.beacon = ambience.headlight = ambience.taillight = ambience.beep =
       grizzly_msgs::Ambience::PATTERN_DFLASH;
-    if (ros::Time::now() > transition_to_moving_time_)
+    if (ros::Time::now() > transition_to_moving_time_ && !last_mcu_status_->error)
       state_ = MotionStates::Moving;
     if (ros::Time::now() - last_commanded_movement_time_ > ros::Duration(0.1))
       setStop("Command messages stale.");
@@ -173,6 +173,8 @@ void MotionSafety::watchdogCallback(const ros::TimerEvent&)
       grizzly_msgs::Ambience::PATTERN_FLASH;
     if (!encoders_ok)
       setStop("Encoders not okay.", true, true);
+    if (isEstopped())
+      setStop("External estop.");
     //if (!motor_controllers_ok)
     //  setStop("Motor controllers not okay.", true);
 
