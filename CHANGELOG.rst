@@ -2,6 +2,9 @@
 Changelog for package grizzly_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.2 (2015-11-06)
+------------------
+
 0.3.1 (2015-01-09)
 ------------------
 * Find includes in URDF relative to package locations.
