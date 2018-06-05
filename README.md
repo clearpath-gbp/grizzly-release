@@ -1,3 +1,30 @@
+## grizzly (kinetic) - 0.4.0-0
+
+The packages in the `grizzly` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release grizzly -r kinetic -t kinetic --new-track` on `Tue, 05 Jun 2018 18:56:00 -0000`
+
+These packages were released:
+- `grizzly_control`
+- `grizzly_description`
+- `grizzly_msgs`
+- `grizzly_navigation`
+
+Version of package(s) in repository `grizzly`:
+
+- upstream repository: https://github.com/g/grizzly.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.4.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.3`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## grizzly (indigo) - 0.3.2-0
 
 The packages in the `grizzly` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo grizzly` on `Fri, 06 Nov 2015 19:04:36 -0000`
