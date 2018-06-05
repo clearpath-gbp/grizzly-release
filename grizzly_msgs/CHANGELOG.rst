@@ -2,6 +2,12 @@
 Changelog for package grizzly_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.0 (2018-06-05)
+------------------
+* Updated Indicators.msg
+* Updated messages for new hardware.
+* Contributors: Mohamed Elshatshat, Tony Baltovski, abhattacharjee
+
 0.3.2 (2015-11-06)
 ------------------
 * Add grizzly_msgs description.
