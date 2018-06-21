@@ -2,6 +2,9 @@
 Changelog for package grizzly_navigation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.1 (2018-06-21)
+------------------
+
 0.4.0 (2018-06-05)
 ------------------
 * Minor package.xml and CMakeList.txt clean-up.
