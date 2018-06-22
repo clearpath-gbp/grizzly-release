@@ -2,6 +2,11 @@
 Changelog for package grizzly_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.2 (2018-06-22)
+------------------
+* [grizzly_description] Installed env_run script.
+* Contributors: Tony Baltovski
+
 0.4.1 (2018-06-21)
 ------------------
 * Updated urdf (`#21 <https://github.com/g/grizzly/issues/21>`_)
