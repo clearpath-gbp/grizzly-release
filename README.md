@@ -1,3 +1,30 @@
+## grizzly (kinetic) - 0.4.2-0
+
+The packages in the `grizzly` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release grizzly -t kinetic -r kinetic` on `Fri, 22 Jun 2018 14:36:24 -0000`
+
+These packages were released:
+- `grizzly_control`
+- `grizzly_description`
+- `grizzly_msgs`
+- `grizzly_navigation`
+
+Version of package(s) in repository `grizzly`:
+
+- upstream repository: https://github.com/g/grizzly.git
+- release repository: https://github.com/clearpath-gbp/grizzly-release.git
+- rosdistro version: `0.4.0-0`
+- old version: `0.4.1-0`
+- new version: `0.4.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.3`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## grizzly (kinetic) - 0.4.1-0
 
 The packages in the `grizzly` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release grizzly -r kinetic -t kinetic` on `Thu, 21 Jun 2018 20:20:26 -0000`
